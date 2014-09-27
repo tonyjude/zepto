@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=100%;
+    initial-scale=1.0;
+    maximum-scale=1.0;
+    minimum-scale=1.0;
+    user-scalable=no;" />
+	<title>zepto tab</title>
+	<link rel="stylesheet" href="css/base.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<script type="text/javascript" src="js/zepto.js"></script>
+	<script type="text/javascript" src="js/zTouch.js"></script>
+	<script type="text/javascript" src="js/zepto.tab.js"></script>
+	<script type="text/javascript" src="js/zTouch.rotation.js"></script>
+	</head>
+<body>
+
+<div class="zx-tab"> 
+	<div class="zx-tab-rotation" id="rotation">
+		<ul id="rotation-ul">
+			<li><a href="#"><img src="css/images/1.jpg"></a><h3>天籁公爵—爱心接力公益活动</h3></li>
+			<li><a href="#"><img src="css/images/2.jpg"></a><h3>《暖色》：飞虎，永不凋零</h3></li>
+			<li><a href="#"><img src="css/images/3.jpg"></a><h3>菲律宾出游:实录遭遇恐怖台风</h3></li>
+			<li><a href="video.html"><img src="css/images/4.jpg"></a><h3>黑龙江交警酒驾 逆行撞车致2人死</h3></li>
+		</ul>
+	</div>	
+	<ul class="clearfix zx-tab-head"> 
+		<li class="active">新闻</li>
+		<li>军事</li>
+		<li>社会</li>
+	</ul>
+	<div class="zx-tab-cont clearfix"> 
+		<div class="zx-tab-cont-item active"> 
+			<div class="zx-cont-item-det">
+				<p><a href="#">曝张柏芝闻锋菲复合痛哭</a></p>
+				<p><a href="#">全球最性感罪犯生活</a></p>
+				<p><a href="#">俄罗斯民众举行反战集会</a></p>
+				<p><a href="#">探访北京“月汇万元乞讨者”</a></p>
+				<p><a href="#">秦玉海摄影作品</a></p>
+			</div>
+		</div>
+		<div class="zx-tab-cont-item"> 
+			<div class="zx-cont-item-det">
+				<p><a href="#">少林寺推都市禅堂</a></p>
+				<p><a href="#">中国好声音谢师加油夜</a></p>
+				<p><a href="#">孙朴大战遭小三搅局</a></p>
+				<p><a href="#">李娜退役发布会视频</a></p>
+				<p><a href="#">女孩遭强奸并活活打死</a></p>
+			</div>
+		</div>
+		<div class="zx-tab-cont-item"> 
+			<div class="zx-cont-item-det">
+				<p><a href="#">美国白宫发现入侵者</a></p>
+				<p><a href="#">好莱坞艾薇儿艳照事件</a></p>
+				<p><a href="#">大学生被电梯惨烈卡死</a></p>
+				<p><a href="#">谢霆锋破世界纪录</a></p>
+				<p><a href="#">安徽新华学院</a></p>
+			</div>
+		</div>
+	</div>
+
+	<div id="animateId"></div>
+</div>
+<script type="text/javascript"> 
+	$(function(){
+		$(".zx-tab").tab();
+		$("#animateId").animate({
+			opacity: 0.25,
+	        color:'#abcdef',
+	        translate3d: '0,10px,0'
+        })
+	});
+</script>
+</body>
+</html>

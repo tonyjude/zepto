@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=100%;
+    initial-scale=1.0;
+    maximum-scale=1.0;
+    minimum-scale=1.0;
+    user-scalable=no;" />
+	<title>zepto tab</title>
+	<link rel="stylesheet" href="css/base.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<script type="text/javascript" src="js/zepto.js"></script>
+	</head>
+<body>
+
+<div class="zx-back" id="zx-back">
+	<header class="header">
+        <h1><span class="ico"></span><span class="t_head_title">爱播</span></h1>
+        <a class="art-back" id="art-back" href="javascript:;"></a>
+        <a class="right center" id="t_h_login" href="javascript:;"></a>
+    </header>
+</div>
+<div class="zx-tab"> 
+	<div id="zx-video">
+		<video width="100%" height="100%" x-webkit-airplay="true" controls="" poster="css/images/33.jpg" preload="none" src="http://222.73.3.98/vkp.tc.qq.com/u00154ez3kn.m1.mp4?vkey=D76D5FF6E4A131601B84E87DB905860E6890210B82D47D13D2F87734C72833FE48DD4078BB6823D720790DB9B45821FD00841BE900739E81&br=29&platform=2&fmt=auto&level=0&sdtfrom=v5010&locid=b7c236a4-8d3f-49f1-9f5b-a93b0f6677a4&size=2613694&ocid=3558547372"></video>
+	</div>
+	<ul class="tab_area">
+		<li><a href="javascript:;"><span>详情</span></a></li>
+		<li class="current"><a href="javascript:;"><span>评论</span></a></li>
+	</ul>
+	<!--用户评论-->
+	<div id="single-comment-main" style="display: block;">
+		<div class="info-comment">   
+			<div class="info-comment-reply">       
+				<textarea class="info-reply-area cmt_text" placeholder="说说你的看法" id="cmt_textarea" style="height: 78px;"></textarea>       
+				<div class="info-reply-bar info-bar  hide" style="display: -webkit-box;">           
+					<div class="comment-count t_join_count">70条评论</div>           
+					<button class="info-btn info-btn-submit t_send">发表</button>       
+				</div>   
+			</div>
+			<div class="main-comment new-comment t_latest_cmt_con" style="display: block;">   
+				<div class="main-comment-title">最新评论</div>   
+				<ul class="main-comment-list" id="comment_list">
+					<li>
+						<a class="comment-list-title">       
+							<strong class="comment-user-name">           
+								<span>不曾流泪的雨</span>      
+							</strong>       
+							<time>刚刚</time>   
+						</a>
+						<ul class="main-comment-list small">
+							<li>   
+								<a class="comment-list-title">       
+									<strong class="comment-user-name">          
+										<span>一分等于六十秒</span>       
+									</strong>       
+									<time>1 楼</time>   
+								</a>   
+								<div class="comment-content">上课都要扯政治，这不是有病吗！</div>   
+								<div class="comment-bar">       
+									<em class="info-btn ilike">14</em>   
+								</div>
+							</li>
+							<li>   
+								<a class="comment-list-title">       
+									<strong class="comment-user-name">           
+										<span>横刀</span>       
+									</strong>       
+									<time>2 楼</time>   
+								</a>   
+								<div class="comment-content">那为什么要考政治？！有病吗</div>   
+								<div class="comment-bar">       
+									<em class="info-btn ilike">5</em>   
+								</div>
+							</li>
+						</ul>   
+						<div class="comment-content">就是</div>   
+						<div class="comment-bar">       
+							<em class="info-btn ilike">0</em>       
+							<em class="info-btn info-btn-reply">回复</em>   
+						</div>
+					</li>
+					<li>   
+						<a class="comment-list-title">       
+							<strong class="comment-user-name">           
+								<span>我</span>       
+							</strong>      
+							<time>1分钟前</time>   
+						</a>
+						<ul class="main-comment-list small">
+							<li>   
+								<a class="comment-list-title">      
+									<strong class="comment-user-name">           
+										<span>Tyrael</span>       
+									</strong>       
+									<time>1 楼</time>  
+								</a>   
+								<div class="comment-content">我真的很好奇，那他是怎么当上老师的</div>   
+								<div class="comment-bar">       
+									<em class="info-btn ilike">3</em>   
+								</div>
+							</li>
+						</ul>   
+						<div class="comment-content">希特勒怎么当上元首的？</div>   
+						<div class="comment-bar">       
+							<em class="info-btn ilike">0</em>       
+							<em class="info-btn info-btn-reply">回复</em>   
+						</div>
+					</li>
+					<li>  
+						 <a class="comment-list-title">       
+						 	<strong class="comment-user-name">           
+						 		<span>横刀</span>       
+						 	</strong>       
+						 	<time>1分钟前</time>   
+						 </a>
+						 <ul class="main-comment-list small">
+						 	<li>   
+						 		<a class="comment-list-title">       
+						 			<strong class="comment-user-name">           
+						 				<span>一分等于六十秒</span>       
+						 			</strong>       
+						 			<time>1 楼</time>   
+						 		</a>   
+						 		<div class="comment-content">上课都要扯政治，这不是有病吗！</div>   
+						 		<div class="comment-bar">       
+						 			<em class="info-btn ilike">12</em>   
+						 		</div>
+						 	</li>
+						 </ul>   
+						 <div class="comment-content">那为什么要考政治？！有病吗</div>   
+						 <div class="comment-bar">       
+						 	<em class="info-btn ilike">0</em>       
+						 	<em class="info-btn info-btn-reply">回复</em>   
+						 </div>
+					</li>
+					<li>  
+						 <a class="comment-list-title">       
+						 	<strong class="comment-user-name">           
+						 		<span>Tyrael</span>       
+						 	</strong>      
+						 	<time>6分钟前</time>   
+						 </a>   
+						 <div class="comment-content">我真的很好奇，那他是怎么当上老师的</div>   
+						 <div class="comment-bar">       
+						 	<em class="info-btn ilike">3</em>      
+						 	<em class="info-btn info-btn-reply t_reply">回复</em>   
+						 </div>
+					</li>
+					<li>   
+						<a class="comment-list-title">       
+							<strong class="comment-user-name">           
+								<span>王宸</span>       
+							</strong>       
+							<time>7分钟前</time>   
+						</a>   
+						<div class="comment-content">一派胡言</div>   
+						<div class="comment-bar">       
+							<em class="info-btn ilike" >1</em>       
+							<em class="info-btn info-btn-reply">回复</em>   
+						</div>
+					</li>
+					<li>   
+						<a class="comment-list-title">      
+							<strong class="comment-user-name">           
+								<span>仙雪</span>      
+							</strong>       
+							<time>7分钟前</time>   
+						</a>   
+						<div class="comment-content">好日子过到头了，呵呵！</div>   
+						<div class="comment-bar">       
+							<em class="info-btn ilike">2</em>       
+							<em class="info-btn info-btn-reply">回复</em>   
+						</div>
+					</li>
+					<li>   
+						<a class="comment-list-title">       
+							<strong class="comment-user-name">           
+								<span>↘_子陵阁</span>       
+							</strong>      
+							<time>8分钟前</time>   
+						</a>   
+						<div class="comment-content">都是听评论员说话，当事人一句都没听到！党也弯曲过好多把</div>  
+						<div class="comment-bar">       
+							<em class="info-btn ilike">2</em>      
+							<em class="info-btn info-btn-reply">回复</em>   
+						</div>
+					</li>
+				</ul>   
+				<a class="comment-link-more" href="javascript:;" id="link_more" style="display: block;">
+					<em>更多评论(60)条</em>
+				</a> 
+			</div>
+		</div>
+	</div>
+	<div id="jumphelper" style="display: block;">
+		<a onclick="javascript:void 0;" id="gotop">∧</a>
+		<a onclick="javascript:void 0;" id="gobot">∨</a>
+	</div>
+	<div id="ivideo_footer">
+		<footer class="footer">	    			
+			<nav>	        		
+				<a href="javascript:;" class="ileft footer_channel">反馈</a>
+				<a href="javascript:;" class="iright footer_login">退出</a>	      			    			
+			</nav>			
+		</footer>
+	</div>
+</div>
+</body>
+<script type="text/javascript"> 
+	$(function(){
+		$("#art-back").on('click', function(){
+			history.go(-1);
+		});
+
+		$("#link_more").on('click', function(){
+			var appendData = '<li><a class="comment-list-title"><strong class="comment-user-name"><span>Tyrael</span></strong><time>10分钟前</time></a><div class="comment-content">哈哈哈啊哈哈哈哈哈哈</div><div class="comment-bar"><em class="info-btn ilike">3</em><em class="info-btn info-btn-reply">回复</em></div></li><li><a class="comment-list-title"><strong class="comment-user-name"><span>王小马</span></strong><time>11分钟前</time></a><div class="comment-content">颠三倒四</div><div class="comment-bar"><em class="info-btn ilike" >2</em><em class="info-btn info-btn-reply">回复</em></div></li><li><a class="comment-list-title"><strong class="comment-user-name"><span>夏雪</span></strong><time>13分钟前</time></a><div class="comment-content">好日子过到头了，呵呵！</div><div class="comment-bar"><em class="info-btn ilike">2</em><em class="info-btn info-btn-reply">回复</em></div></li><li><a class="comment-list-title"><strong class="comment-user-name"><span>小黄人</span></strong><time>17分钟前</time></a><div class="comment-content">好啊哈哈啊哈啊哈哈哈哈哈哈</div><div class="comment-bar"><em class="info-btn ilike">2</em><em class="info-btn info-btn-reply">回复</em></div></li>';
+
+			$("#comment_list").append(appendData);
+		});
+	});
+</script>
+</html>
